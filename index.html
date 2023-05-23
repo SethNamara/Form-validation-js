@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation with Javascript</title>
+
+    <!-- === CSS link === -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="form__card">
+
+            <h1 class="title">Registration</h1>
+
+            <form id="form" action="/">
+
+            <div class="feild">
+                <label for="username" >Username:</label>
+                <input id="username" name="username" placeholder="Enter your username" type="text">
+                <div class="error__text"></div>
+            </div>
+
+            <div class="feild">
+                <label for="email" >Email:</label>
+                <input id="email" name="email" placeholder="Enter your email" type="text">
+                <div class="error__text"></div>
+            </div>
+
+            <div class="feild">
+                <label for="password" >Password:</label>
+                <input id="password" name="password" placeholder="Password" type="password">
+                <div class="error__text"></div>
+            </div>
+
+            <div class="feild">
+                <label for="password2" >Confirm Passward:</label>
+                <input id="password2" name="password" placeholder="Re-type your Password" type="password">
+                <div class="error__text"></div>
+            </div>
+
+            <button onclick="validateInputs()" type="submit">Register</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
