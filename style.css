@@ -13,6 +13,7 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #2c85eb, #0b96d6, #03d8d8);
+    margin: 5rem;
 }
 
 .container {
@@ -54,8 +55,9 @@ body {
 input {
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #0b96d6;
+    border: 2px solid;
     width: 100%;
+    border-color: #0b96d6;
 }
 
 input:focus {
@@ -88,6 +90,6 @@ button:hover {
 
 .error__text {
     color: #ff3860;
-    font-size: 10px;
+    font-size: 13px;
     height: 13px;
 }
